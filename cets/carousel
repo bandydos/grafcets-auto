@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GCDocument color="-1" dimTicks="25" dpwsInterface="" dpwsPort="-1" height="888" horizontalScrollBar="1" modifiable="1" name="J1" saveVersion="8" scale="1.0" simulationMode="1" socketHost="" socketIsServer="0" socketPort="-1" socketSendMode="Changed" threadSpeed="40" tokenLuminance="0" verticalScrollBar="1" viewPositionX="7" viewPositionY="0" width="428" x="1" y="-2">
+  <FreeText alignment="1" autoResize="1" backgroundColor="-1" bold="1" clipping="0" draggable="1" editOnSingleClick="1" editable="1" fontName="SansSerif" fontSize="12" height="16" italic="0" multiline="0" name="" resizable="1" selectBackground="0" selectable="1" strikeThrough="0" text="" textColor="-16777216" transparent="1" twoDScale="0" underline="0" visible="1" width="10" x="10" y="330"/>
+  <FreeText alignment="1" autoResize="1" backgroundColor="-1" bold="1" clipping="0" draggable="1" editOnSingleClick="1" editable="1" fontName="SansSerif" fontSize="16" height="21" italic="0" multiline="0" name="" resizable="1" selectBackground="0" selectable="1" strikeThrough="0" text="Carousel" textColor="-16777216" transparent="1" twoDScale="0" underline="0" visible="1" width="69" x="150" y="20"/>
+  <GCInitialStep actionBlockVisible="0" actionText=";" fileName="" height="70" id="87b83961-e65b-48b3-842f-ecc83ec3e9f3" name="Start" useIcon="0" width="60" x="150" y="85"/>
+  <GCStep actionBlockVisible="1" actionText="K+ = 1" fileName="" height="70" id="9f9f07aa-0484-403e-8096-336a7868d596" name="Slot ontgrendelen" useIcon="0" width="200" x="150" y="215"/>
+  <GCTransition actionText="0" conditionVisible="1" height="25" id="7b0323dc-e713-4ff8-9ad9-cd4c91468b21" width="30" x="165" y="170"/>
+  <GCStep actionBlockVisible="1" actionText="J+ = 1" fileName="" height="70" id="ad909311-aa7d-4ab1-ba59-53d9e27c2f79" name="Draaien" useIcon="0" width="200" x="150" y="355"/>
+  <GCTransition actionText="" conditionVisible="1" height="25" id="4d797022-5742-4419-8817-5a3bb162c296" width="30" x="165" y="310"/>
+  <GCStep actionBlockVisible="1" actionText="K+ = 0" fileName="" height="70" id="05006639-8b64-4be9-aeb2-9263d5ecf51b" name="Slot vergendelen" useIcon="0" width="200" x="150" y="485"/>
+  <GCTransition actionText="0" conditionVisible="1" height="25" id="c3b59295-37d7-44b7-99a9-163fa72482f2" width="30" x="165" y="440"/>
+  <GCTransition actionText="0" conditionVisible="1" height="25" id="c1ce82d2-7c47-441b-8a4d-7f0a6e11472a" width="30" x="165" y="580"/>
+  <GCLink fromObject="7b0323dc-e713-4ff8-9ad9-cd4c91468b21" manAdj="0" toObject="9f9f07aa-0484-403e-8096-336a7868d596">
+    <Stroke x="180" y="196"/>
+    <Stroke x="180" y="206"/>
+    <Stroke x="180" y="206"/>
+    <Stroke x="180" y="204"/>
+    <Stroke x="180" y="204"/>
+    <Stroke x="180" y="214"/>
+  </GCLink>
+  <GCLink fromObject="87b83961-e65b-48b3-842f-ecc83ec3e9f3" manAdj="0" toObject="7b0323dc-e713-4ff8-9ad9-cd4c91468b21">
+    <Stroke x="180" y="156"/>
+    <Stroke x="180" y="166"/>
+    <Stroke x="180" y="166"/>
+    <Stroke x="180" y="159"/>
+    <Stroke x="180" y="159"/>
+    <Stroke x="180" y="169"/>
+  </GCLink>
+  <GCLink fromObject="4d797022-5742-4419-8817-5a3bb162c296" manAdj="0" toObject="ad909311-aa7d-4ab1-ba59-53d9e27c2f79">
+    <Stroke x="180" y="336"/>
+    <Stroke x="180" y="346"/>
+    <Stroke x="180" y="346"/>
+    <Stroke x="180" y="344"/>
+    <Stroke x="180" y="344"/>
+    <Stroke x="180" y="354"/>
+  </GCLink>
+  <GCLink fromObject="9f9f07aa-0484-403e-8096-336a7868d596" manAdj="0" toObject="4d797022-5742-4419-8817-5a3bb162c296">
+    <Stroke x="180" y="286"/>
+    <Stroke x="180" y="296"/>
+    <Stroke x="180" y="297"/>
+    <Stroke x="180" y="297"/>
+    <Stroke x="180" y="299"/>
+    <Stroke x="180" y="309"/>
+  </GCLink>
+  <GCLink fromObject="c3b59295-37d7-44b7-99a9-163fa72482f2" manAdj="0" toObject="05006639-8b64-4be9-aeb2-9263d5ecf51b">
+    <Stroke x="180" y="466"/>
+    <Stroke x="180" y="476"/>
+    <Stroke x="180" y="476"/>
+    <Stroke x="180" y="474"/>
+    <Stroke x="180" y="474"/>
+    <Stroke x="180" y="484"/>
+  </GCLink>
+  <GCLink fromObject="05006639-8b64-4be9-aeb2-9263d5ecf51b" manAdj="0" toObject="c1ce82d2-7c47-441b-8a4d-7f0a6e11472a">
+    <Stroke x="180" y="556"/>
+    <Stroke x="180" y="566"/>
+    <Stroke x="180" y="567"/>
+    <Stroke x="180" y="567"/>
+    <Stroke x="180" y="569"/>
+    <Stroke x="180" y="579"/>
+  </GCLink>
+  <GCLink fromObject="ad909311-aa7d-4ab1-ba59-53d9e27c2f79" manAdj="0" toObject="c3b59295-37d7-44b7-99a9-163fa72482f2">
+    <Stroke x="180" y="426"/>
+    <Stroke x="180" y="436"/>
+    <Stroke x="180" y="436"/>
+    <Stroke x="180" y="429"/>
+    <Stroke x="180" y="429"/>
+    <Stroke x="180" y="439"/>
+  </GCLink>
+  <GCLink fromObject="c1ce82d2-7c47-441b-8a4d-7f0a6e11472a" manAdj="0" toObject="87b83961-e65b-48b3-842f-ecc83ec3e9f3">
+    <Stroke x="180" y="606"/>
+    <Stroke x="180" y="616"/>
+    <Stroke x="406" y="616"/>
+    <Stroke x="406" y="74"/>
+    <Stroke x="180" y="74"/>
+    <Stroke x="180" y="84"/>
+  </GCLink>
+</GCDocument>
