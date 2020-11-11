@@ -1,6 +1,6 @@
 # grafcets
 
-***Grafcets made in automatisering***
+***Grafcets for JGrafchart made in automatisering***
 
 
 ---
@@ -10,3 +10,4 @@
 [Andries](https://github.com/andriesdeklerck)
 
 [Alexander](https://github.com/bandydos)
+
