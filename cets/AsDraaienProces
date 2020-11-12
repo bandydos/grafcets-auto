@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<GCDocument color="-1" dimTicks="25" dpwsInterface="" dpwsPort="-1" height="912" horizontalScrollBar="1" modifiable="1" name="J2" saveVersion="8" scale="0.79" simulationMode="1" socketHost="" socketIsServer="0" socketPort="-1" socketSendMode="Changed" threadSpeed="40" tokenLuminance="0" verticalScrollBar="1" viewPositionX="0" viewPositionY="76" width="1089" x="711" y="-7">
+<GCDocument color="-1" dimTicks="25" dpwsInterface="" dpwsPort="-1" height="912" horizontalScrollBar="1" modifiable="1" name="J2" saveVersion="8" scale="0.79" simulationMode="1" socketHost="" socketIsServer="0" socketPort="-1" socketSendMode="Changed" threadSpeed="40" tokenLuminance="0" verticalScrollBar="1" viewPositionX="0" viewPositionY="40" width="1089" x="120" y="9">
   <GCInitialStep actionBlockVisible="1" actionText="H+ = 0;" fileName="" height="70" id="1c718d2b-8828-47bb-91ec-8cae7ae02c12" name="" useIcon="0" width="200" x="340" y="165"/>
   <GCTransition actionText="g0 == 1" conditionVisible="1" height="25" id="06e1179c-3971-4b8f-a0df-a19b15316ea7" width="30" x="355" y="260"/>
   <GCStep actionBlockVisible="1" actionText="G+ = 1;" fileName="" height="70" id="cef8dee6-2cc0-44de-97f2-1ebf08da2313" name="" useIcon="0" width="200" x="340" y="305"/>
   <GCTransition actionText="g1 == 1" conditionVisible="1" height="25" id="eca4cad5-1362-4e55-84b7-49f02f6d64d3" width="30" x="355" y="390"/>
-  <DigitalOut channel="0" height="60" name="G+" value="0" width="80" x="860" y="80"/>
-  <DigitalOut channel="0" height="60" name="H+" value="0" width="80" x="860" y="190"/>
-  <DigitalOut channel="0" height="60" name="I+" value="0" width="80" x="860" y="300"/>
-  <DigitalIn channel="0" cyclic="1" height="60" name="g0" value="0" width="80" x="690" y="40"/>
-  <DigitalIn channel="0" cyclic="1" height="60" name="g1" value="0" width="80" x="690" y="150"/>
   <GCStep actionBlockVisible="1" actionText="I+ = 1;" fileName="" height="70" id="53ca83a0-e53f-4052-b034-be45d20c3bcb" name="" useIcon="0" width="200" x="340" y="435"/>
   <GCTransition actionText="g0 == 1" conditionVisible="1" height="25" id="9573c0e2-50fa-4ea5-bc41-a84b876f3836" width="30" x="355" y="630"/>
   <GCStep actionBlockVisible="1" actionText="H+ = 1;" fileName="" height="70" id="cc2778ed-f56c-4b87-86ab-a1cd88a13d82" name="" useIcon="0" width="200" x="340" y="665"/>
@@ -21,6 +16,7 @@
   <GCStep actionBlockVisible="1" actionText="G+ = 0;" fileName="" height="70" id="af49fbc1-a081-4ac0-bbab-f736cfa44d79" name="" useIcon="0" width="200" x="340" y="555"/>
   <GCStep actionBlockVisible="1" actionText="G+ = 1;" fileName="" height="70" id="b7cc7657-c66b-4e74-82d0-a38fa754da33" name="" useIcon="0" width="200" x="340" y="775"/>
   <GCStep actionBlockVisible="1" actionText="G+ = 0;" fileName="" height="70" id="35cf2a78-6ce2-4b9e-a426-295637a9d27e" name="" useIcon="0" width="200" x="340" y="1015"/>
+  <FreeText alignment="1" autoResize="1" backgroundColor="-1" bold="1" clipping="0" draggable="1" editOnSingleClick="1" editable="1" fontName="SansSerif" fontSize="16" height="21" italic="0" multiline="0" name="" resizable="1" selectBackground="0" selectable="1" strikeThrough="0" text="As draaien" textColor="-16777216" transparent="1" twoDScale="0" underline="0" visible="1" width="81" x="350" y="100"/>
   <GCLink fromObject="1c718d2b-8828-47bb-91ec-8cae7ae02c12" manAdj="0" toObject="06e1179c-3971-4b8f-a0df-a19b15316ea7">
     <Stroke x="370" y="236"/>
     <Stroke x="370" y="246"/>

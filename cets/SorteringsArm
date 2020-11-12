@@ -3,14 +3,14 @@
   <GCInitialStep actionBlockVisible="1" actionText="V2+ = 0;&#10;C+ = 1;" fileName="" height="70" id="1e277e00-ff43-426b-bd30-3ceb1bdce256" name="Start" useIcon="0" width="200" x="60" y="-205"/>
   <FreeText alignment="1" autoResize="1" backgroundColor="-1" bold="1" clipping="0" draggable="1" editOnSingleClick="1" editable="1" fontName="SansSerif" fontSize="16" height="21" italic="0" multiline="0" name="" resizable="1" selectBackground="0" selectable="1" strikeThrough="0" text="Sorteringsarm" textColor="-16777216" transparent="1" twoDScale="0" underline="0" visible="1" width="109" x="100" y="-270"/>
   <GCStep actionBlockVisible="1" actionText="D+ = 1;" fileName="" height="70" id="c1284674-7bc0-4642-bb8b-0e8e60a58cb6" name="D naar beneden" useIcon="0" width="200" x="60" y="-55"/>
-  <GCTransition actionText="C1 == 1" conditionVisible="1" height="25" id="064b3c74-fcfc-43a1-b374-967527b65945" width="30" x="75" y="-110"/>
+  <GCTransition actionText="c1 == 1" conditionVisible="1" height="25" id="064b3c74-fcfc-43a1-b374-967527b65945" width="30" x="75" y="-110"/>
   <GCStep actionBlockVisible="1" actionText="V2+ = 1;" fileName="" height="70" id="528e52c1-e288-4e63-9ce7-9b1ce1df9612" name="V2+ aanzuigen" useIcon="0" width="200" x="60" y="75"/>
-  <GCTransition actionText="D1 == 1" conditionVisible="1" height="25" id="14c2984e-ad47-4af4-a3a1-3feee9bb91d4" width="30" x="75" y="30"/>
-  <GCTransition actionText="V2 == 1" conditionVisible="1" height="25" id="ae007a82-4109-418e-ac59-d750a27bd912" width="30" x="75" y="170"/>
+  <GCTransition actionText="d1 == 1" conditionVisible="1" height="25" id="14c2984e-ad47-4af4-a3a1-3feee9bb91d4" width="30" x="75" y="30"/>
+  <GCTransition actionText="v2 == 1" conditionVisible="1" height="25" id="ae007a82-4109-418e-ac59-d750a27bd912" width="30" x="75" y="170"/>
   <GCStep actionBlockVisible="1" actionText="D+ = 0;" fileName="" height="70" id="93f1db77-cc7f-4e6c-bdf0-cd9d36fe52f9" name="D naar boven" useIcon="0" width="200" x="60" y="215"/>
-  <GCTransition actionText="D0 == 1" conditionVisible="1" height="25" id="a9737824-8f44-45e6-9917-7f7fdc4aabcd" width="30" x="75" y="310"/>
+  <GCTransition actionText="d0 == 1" conditionVisible="1" height="25" id="a9737824-8f44-45e6-9917-7f7fdc4aabcd" width="30" x="75" y="310"/>
   <GCStep actionBlockVisible="1" actionText="C- = 1;" fileName="" height="70" id="02ad2682-eb9e-40d4-b6f1-4f7b8bbc2f31" name="C achteruit" useIcon="0" width="200" x="60" y="355"/>
-  <GCTransition actionText="C0 == 1" conditionVisible="1" height="25" id="3d30cda2-da82-402f-acf9-8310256daceb" width="30" x="75" y="450"/>
+  <GCTransition actionText="c0 == 1" conditionVisible="1" height="25" id="3d30cda2-da82-402f-acf9-8310256daceb" width="30" x="75" y="450"/>
   <GCLink fromObject="1e277e00-ff43-426b-bd30-3ceb1bdce256" manAdj="0" toObject="064b3c74-fcfc-43a1-b374-967527b65945">
     <Stroke x="90" y="-134"/>
     <Stroke x="90" y="-124"/>
