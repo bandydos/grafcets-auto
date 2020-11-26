@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<GCDocument color="-1" dimTicks="25" dpwsInterface="" dpwsPort="-1" height="912" horizontalScrollBar="1" modifiable="1" name="J1" saveVersion="8" scale="0.98" simulationMode="1" socketHost="" socketIsServer="0" socketPort="-1" socketSendMode="Changed" threadSpeed="40" tokenLuminance="0" verticalScrollBar="1" viewPositionX="-337" viewPositionY="510" width="1089" x="18" y="6">
+<GCDocument color="-1" dimTicks="25" dpwsInterface="" dpwsPort="-1" height="912" horizontalScrollBar="1" modifiable="1" name="J1" saveVersion="8" scale="0.88" simulationMode="1" socketHost="" socketIsServer="0" socketPort="-1" socketSendMode="Changed" threadSpeed="40" tokenLuminance="0" verticalScrollBar="1" viewPositionX="-399" viewPositionY="362" width="1089" x="18" y="6">
   <GCInitialStep actionBlockVisible="1" actionText="A+ = 0;&#10;B+ = 0;" fileName="" height="70" id="eb866cb0-8108-4ea5-9028-e6fb32e2701f" name="Boven de carousel" useIcon="0" width="200" x="180" y="105"/>
-  <GCStep actionBlockVisible="1" actionText="A+ = 1;" fileName="" height="70" id="fc3376fd-d179-4c2b-9dd3-70a76260ad50" name="Arm beneden" useIcon="0" width="200" x="180" y="235"/>
+  <GCStep actionBlockVisible="1" actionText="A+ = 1;" fileName="" height="70" id="fc3376fd-d179-4c2b-9dd3-70a76260ad50" name="Zuiger op as" useIcon="0" width="200" x="180" y="235"/>
   <GCTransition actionText="a0 == 1" conditionVisible="1" height="25" id="dffe3c22-a76e-4139-8cd4-9aed71a9e771" width="30" x="195" y="190"/>
   <GCTransition actionText="a1 == 1" conditionVisible="1" height="25" id="7aaffa5c-b1a8-4426-850a-8d23f67ae8dc" width="30" x="195" y="320"/>
   <GCStep actionBlockVisible="1" actionText="V1+ = 1;" fileName="" height="70" id="aa8bf1ca-173b-41f5-94c6-76d5e8f713e9" name="Aanzuigen as" useIcon="0" width="200" x="180" y="365"/>
   <GCTransition actionText="v1 == 1" conditionVisible="1" height="25" id="535b8d1a-aa49-4727-b21e-13c67f59d651" width="30" x="195" y="450"/>
-  <GCStep actionBlockVisible="1" actionText="A+ = 0;" fileName="" height="70" id="da480b37-569e-4999-a6f6-e04bfe0a5c57" name="Arm boven" useIcon="0" width="200" x="180" y="495"/>
+  <GCStep actionBlockVisible="1" actionText="A+ = 0;" fileName="" height="70" id="da480b37-569e-4999-a6f6-e04bfe0a5c57" name="Zuiger boven as" useIcon="0" width="200" x="180" y="495"/>
   <GCTransition actionText="a0 == 1" conditionVisible="1" height="25" id="378fa88f-226e-40fc-96a2-e1450a5b3feb" width="30" x="195" y="580"/>
   <GCStep actionBlockVisible="1" actionText="B+ = 1;" fileName="" height="70" id="b0e88190-8f5f-4873-a132-945a7f7b07eb" name="Arm draaien naar component" useIcon="0" width="200" x="180" y="625"/>
   <GCTransition actionText="b1 == 1" conditionVisible="1" height="25" id="cde3e97c-18ad-49d9-9cc0-0ec2728e7222" width="30" x="195" y="710"/>
-  <GCStep actionBlockVisible="1" actionText="A+ = 1;" fileName="" height="70" id="871e5ecf-eb50-423c-bdb8-a978280ccc6b" name="Arm zakken" useIcon="0" width="200" x="180" y="755"/>
+  <GCStep actionBlockVisible="1" actionText="A+ = 1;" fileName="" height="70" id="871e5ecf-eb50-423c-bdb8-a978280ccc6b" name="Zuiger staat op as" useIcon="0" width="200" x="180" y="755"/>
   <GCTransition actionText="a1 == 1" conditionVisible="1" height="25" id="e083267d-1e4b-41fb-a14f-055fdf6de179" width="30" x="195" y="840"/>
   <GCStep actionBlockVisible="1" actionText="V1+ = 0;" fileName="" height="70" id="d9f48521-97f6-4a57-9a36-62b69ebf5f2e" name="As lossen en arm naar boven" useIcon="0" width="200" x="180" y="885"/>
   <GCTransition actionText="a0 == 1" conditionVisible="1" height="25" id="355bcc71-8c13-42be-b944-ba6b336afdf7" width="30" x="195" y="1150"/>
   <GCStep actionBlockVisible="1" actionText="B+ = 0;" fileName="" height="70" id="93a424ec-4b39-4909-a616-3e731d2d6d57" name="Arm draaien boven carrousel" useIcon="0" width="200" x="180" y="1205"/>
   <GCTransition actionText="b0 == 1" conditionVisible="1" height="25" id="387be1f3-38d6-45c0-9245-df266f11a0cf" width="30" x="195" y="1300"/>
-  <FreeText alignment="1" autoResize="1" backgroundColor="-1" bold="1" clipping="0" draggable="1" editOnSingleClick="1" editable="1" fontName="SansSerif" fontSize="16" height="21" italic="0" multiline="0" name="" resizable="1" selectBackground="0" selectable="1" strikeThrough="0" text="Arm einde proces" textColor="-16777216" transparent="1" twoDScale="0" underline="0" visible="1" width="134" x="130" y="50"/>
+  <FreeText alignment="1" autoResize="1" backgroundColor="-1" bold="1" clipping="0" draggable="1" editOnSingleClick="1" editable="1" fontName="SansSerif" fontSize="16" height="21" italic="0" multiline="0" name="" resizable="1" selectBackground="0" selectable="1" strikeThrough="0" text="Plaatsen op lager (GC5)" textColor="-16777216" transparent="1" twoDScale="0" underline="0" visible="1" width="179" x="140" y="50"/>
   <GCTransition actionText="tijd = 1s" conditionVisible="1" height="25" id="a7283b26-b734-4207-9e88-ab1111fa8245" width="30" x="195" y="990"/>
-  <GCStep actionBlockVisible="1" actionText="A+ = 0;" fileName="" height="70" id="1bdafe3a-aff6-4c11-8f76-c8d13eeb556d" name="" useIcon="0" width="200" x="180" y="1045"/>
+  <GCStep actionBlockVisible="1" actionText="A+ = 0;" fileName="" height="70" id="1bdafe3a-aff6-4c11-8f76-c8d13eeb556d" name="Zuiger staat boven as" useIcon="0" width="200" x="180" y="1045"/>
+  <FreeText alignment="1" autoResize="1" backgroundColor="-1" bold="1" clipping="0" draggable="1" editOnSingleClick="1" editable="1" fontName="SansSerif" fontSize="12" height="16" italic="0" multiline="0" name="" resizable="1" selectBackground="0" selectable="1" strikeThrough="0" text="positie 7 uitlezen van tabel" textColor="-16777216" transparent="1" twoDScale="0" underline="0" visible="1" width="149" x="270" y="1270"/>
   <GCLink fromObject="dffe3c22-a76e-4139-8cd4-9aed71a9e771" manAdj="0" toObject="fc3376fd-d179-4c2b-9dd3-70a76260ad50">
     <Stroke x="210" y="216"/>
     <Stroke x="210" y="226"/>

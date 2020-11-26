@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GCDocument color="-1" dimTicks="25" dpwsInterface="" dpwsPort="-1" height="840" horizontalScrollBar="1" modifiable="1" name="J1" saveVersion="8" scale="1.0" simulationMode="1" socketHost="" socketIsServer="0" socketPort="-1" socketSendMode="Changed" threadSpeed="40" tokenLuminance="0" verticalScrollBar="1" viewPositionX="0" viewPositionY="0" width="917" x="489" y="4">
+  <FreeText alignment="1" autoResize="1" backgroundColor="-1" bold="1" clipping="0" draggable="1" editOnSingleClick="1" editable="1" fontName="SansSerif" fontSize="16" height="21" italic="0" multiline="0" name="" resizable="1" selectBackground="0" selectable="1" strikeThrough="0" text="As plaatsen en postitie detecteren (GC2)" textColor="-16777216" transparent="1" twoDScale="0" underline="0" visible="1" width="304" x="140" y="40"/>
+  <GCInitialStep actionBlockVisible="0" actionText=";" fileName="" height="70" id="0f2e4115-b51f-4021-9c6b-c7c0e51dfa15" name="Start" useIcon="0" width="60" x="160" y="105"/>
+  <GCTransition actionText="carousel (GC1) klaar" conditionVisible="1" height="25" id="5d8d30f1-1584-46ff-b862-61babef2cddb" width="30" x="175" y="180"/>
+  <GCStep actionBlockVisible="1" actionText="E+ = 1;" fileName="" height="70" id="504d0a9e-4fd5-4a16-9c5e-cd3c8f3abbcf" name="As laten vallen (pulse)" useIcon="0" width="200" x="160" y="225"/>
+  <GCTransition actionText="tijd 100ms" conditionVisible="1" height="25" id="65677c3b-c9d8-4694-8bd3-277eb1d3fd3e" width="30" x="175" y="310"/>
+  <GCInitialStep actionBlockVisible="0" actionText=";" fileName="" height="70" id="ac819259-4218-432f-9cea-dc71bebd103b" name="Start" useIcon="0" width="60" x="610" y="105"/>
+  <GCTransition actionText="carousel (GC1) klaar" conditionVisible="1" height="25" id="d23855e2-be8e-4fc0-b520-d026df9fffa7" width="30" x="625" y="180"/>
+  <GCStep actionBlockVisible="1" actionText="F+ = 1;" fileName="" height="70" id="188f4638-a5f9-43c4-8e2a-7592d9984b09" name="Positie detector zakken" useIcon="0" width="200" x="610" y="225"/>
+  <GCTransition actionText="tijd 300ms" conditionVisible="1" height="25" id="82b3be92-e48e-43a2-87ef-18e64ef8c2bc" width="30" x="625" y="310"/>
+  <GCStep actionBlockVisible="1" actionText="F+ = 0;" fileName="" height="70" id="9f119d31-8fd8-4686-ad69-73a3679317ae" name="Positie detector stijgen" useIcon="0" width="200" x="610" y="345"/>
+  <FreeText alignment="1" autoResize="1" backgroundColor="-1" bold="1" clipping="0" draggable="1" editOnSingleClick="1" editable="1" fontName="SansSerif" fontSize="12" height="16" italic="0" multiline="0" name="" resizable="1" selectBackground="0" selectable="1" strikeThrough="0" text="verify cilinder down" textColor="-16777216" transparent="1" twoDScale="0" underline="0" visible="1" width="110" x="500" y="430"/>
+  <GCTransition actionText="f1 == x" conditionVisible="1" height="25" id="45b16bcf-66d7-4020-ad22-8a022b53e930" width="30" x="625" y="430"/>
+  <GCStep actionBlockVisible="1" actionText="x schrijven;" fileName="" height="70" id="ab7cf0be-ea44-4e19-9be0-96b299320e99" name="Wegschrijven naar tabel" useIcon="0" width="200" x="610" y="485"/>
+  <GCTransition actionText="GC2b klaar" conditionVisible="1" height="25" id="7c357742-49fb-4b7d-b5af-57e4543eb75d" width="30" x="625" y="580"/>
+  <FreeText alignment="1" autoResize="1" backgroundColor="-1" bold="1" clipping="0" draggable="1" editOnSingleClick="1" editable="1" fontName="SansSerif" fontSize="16" height="21" italic="0" multiline="0" name="" resizable="1" selectBackground="0" selectable="1" strikeThrough="0" text="GC2a klaar" textColor="-16777216" transparent="1" twoDScale="0" underline="0" visible="1" width="83" x="260" y="350"/>
+  <GCLink fromObject="504d0a9e-4fd5-4a16-9c5e-cd3c8f3abbcf" manAdj="0" toObject="65677c3b-c9d8-4694-8bd3-277eb1d3fd3e">
+    <Stroke x="190" y="296"/>
+    <Stroke x="190" y="306"/>
+    <Stroke x="190" y="306"/>
+    <Stroke x="190" y="299"/>
+    <Stroke x="190" y="299"/>
+    <Stroke x="190" y="309"/>
+  </GCLink>
+  <GCLink fromObject="0f2e4115-b51f-4021-9c6b-c7c0e51dfa15" manAdj="0" toObject="5d8d30f1-1584-46ff-b862-61babef2cddb">
+    <Stroke x="190" y="176"/>
+    <Stroke x="190" y="186"/>
+    <Stroke x="190" y="186"/>
+    <Stroke x="190" y="169"/>
+    <Stroke x="190" y="169"/>
+    <Stroke x="190" y="179"/>
+  </GCLink>
+  <GCLink fromObject="5d8d30f1-1584-46ff-b862-61babef2cddb" manAdj="0" toObject="504d0a9e-4fd5-4a16-9c5e-cd3c8f3abbcf">
+    <Stroke x="190" y="206"/>
+    <Stroke x="190" y="216"/>
+    <Stroke x="190" y="216"/>
+    <Stroke x="190" y="214"/>
+    <Stroke x="190" y="214"/>
+    <Stroke x="190" y="224"/>
+  </GCLink>
+  <GCLink fromObject="188f4638-a5f9-43c4-8e2a-7592d9984b09" manAdj="0" toObject="82b3be92-e48e-43a2-87ef-18e64ef8c2bc">
+    <Stroke x="640" y="296"/>
+    <Stroke x="640" y="306"/>
+    <Stroke x="640" y="306"/>
+    <Stroke x="640" y="299"/>
+    <Stroke x="640" y="299"/>
+    <Stroke x="640" y="309"/>
+  </GCLink>
+  <GCLink fromObject="82b3be92-e48e-43a2-87ef-18e64ef8c2bc" manAdj="0" toObject="9f119d31-8fd8-4686-ad69-73a3679317ae">
+    <Stroke x="640" y="336"/>
+    <Stroke x="640" y="346"/>
+    <Stroke x="640" y="346"/>
+    <Stroke x="640" y="334"/>
+    <Stroke x="640" y="334"/>
+    <Stroke x="640" y="344"/>
+  </GCLink>
+  <GCLink fromObject="ac819259-4218-432f-9cea-dc71bebd103b" manAdj="0" toObject="d23855e2-be8e-4fc0-b520-d026df9fffa7">
+    <Stroke x="640" y="176"/>
+    <Stroke x="640" y="186"/>
+    <Stroke x="640" y="186"/>
+    <Stroke x="640" y="169"/>
+    <Stroke x="640" y="169"/>
+    <Stroke x="640" y="179"/>
+  </GCLink>
+  <GCLink fromObject="d23855e2-be8e-4fc0-b520-d026df9fffa7" manAdj="0" toObject="188f4638-a5f9-43c4-8e2a-7592d9984b09">
+    <Stroke x="640" y="206"/>
+    <Stroke x="640" y="216"/>
+    <Stroke x="640" y="216"/>
+    <Stroke x="640" y="214"/>
+    <Stroke x="640" y="214"/>
+    <Stroke x="640" y="224"/>
+  </GCLink>
+  <GCLink fromObject="9f119d31-8fd8-4686-ad69-73a3679317ae" manAdj="0" toObject="45b16bcf-66d7-4020-ad22-8a022b53e930">
+    <Stroke x="640" y="416"/>
+    <Stroke x="640" y="426"/>
+    <Stroke x="640" y="426"/>
+    <Stroke x="640" y="419"/>
+    <Stroke x="640" y="419"/>
+    <Stroke x="640" y="429"/>
+  </GCLink>
+  <GCLink fromObject="45b16bcf-66d7-4020-ad22-8a022b53e930" manAdj="0" toObject="ab7cf0be-ea44-4e19-9be0-96b299320e99">
+    <Stroke x="640" y="456"/>
+    <Stroke x="640" y="466"/>
+    <Stroke x="640" y="470"/>
+    <Stroke x="640" y="470"/>
+    <Stroke x="640" y="474"/>
+    <Stroke x="640" y="484"/>
+  </GCLink>
+  <GCLink fromObject="ab7cf0be-ea44-4e19-9be0-96b299320e99" manAdj="0" toObject="7c357742-49fb-4b7d-b5af-57e4543eb75d">
+    <Stroke x="640" y="556"/>
+    <Stroke x="640" y="566"/>
+    <Stroke x="640" y="567"/>
+    <Stroke x="640" y="567"/>
+    <Stroke x="640" y="569"/>
+    <Stroke x="640" y="579"/>
+  </GCLink>
+  <GCLink fromObject="7c357742-49fb-4b7d-b5af-57e4543eb75d" manAdj="1" toObject="188f4638-a5f9-43c4-8e2a-7592d9984b09">
+    <Stroke x="640" y="606"/>
+    <Stroke x="640" y="616"/>
+    <Stroke x="842" y="616"/>
+    <Stroke x="842" y="214"/>
+    <Stroke x="640" y="214"/>
+    <Stroke x="640" y="224"/>
+  </GCLink>
+  <GCLink fromObject="65677c3b-c9d8-4694-8bd3-277eb1d3fd3e" manAdj="1" toObject="504d0a9e-4fd5-4a16-9c5e-cd3c8f3abbcf">
+    <Stroke x="190" y="336"/>
+    <Stroke x="190" y="346"/>
+    <Stroke x="410" y="346"/>
+    <Stroke x="410" y="214"/>
+    <Stroke x="190" y="214"/>
+    <Stroke x="190" y="224"/>
+  </GCLink>
+</GCDocument>
