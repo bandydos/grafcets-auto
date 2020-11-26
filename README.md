@@ -1,6 +1,6 @@
 # grafcets
 
-***Grafcets for JGrafchart made in automatisering***
+***Grafcets & TIA functionality for JGrafchart made in automatisering***
 
 
 ---
